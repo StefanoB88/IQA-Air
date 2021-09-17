@@ -1,0 +1,6 @@
+framework module Pods_IQA_Air {
+  umbrella header "Pods-IQA Air-umbrella.h"
+
+  export *
+  module * { export * }
+}

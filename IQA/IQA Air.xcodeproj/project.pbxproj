@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57364E7726A7149100B4BF30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57364E7626A7149100B4BF30 /* AppDelegate.swift */; };
+		57364E7926A7149100B4BF30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57364E7826A7149100B4BF30 /* SceneDelegate.swift */; };
+		57364E7B26A7149100B4BF30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57364E7A26A7149100B4BF30 /* ViewController.swift */; };
+		57364E7E26A7149100B4BF30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57364E7C26A7149100B4BF30 /* Main.storyboard */; };
+		57364E8026A7149200B4BF30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57364E7F26A7149200B4BF30 /* Assets.xcassets */; };
+		57364E8326A7149200B4BF30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57364E8126A7149200B4BF30 /* LaunchScreen.storyboard */; };
+		57364E8D26A7153800B4BF30 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57364E8B26A7153800B4BF30 /* Data.swift */; };
+		57364E8E26A7153800B4BF30 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57364E8C26A7153800B4BF30 /* Main.swift */; };
+		57364E9026A7156500B4BF30 /* Datamanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57364E8F26A7156500B4BF30 /* Datamanager.swift */; };
+		57364E9226A71D2900B4BF30 /* ViewIQA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57364E9126A71D2900B4BF30 /* ViewIQA.swift */; };
+		6E18F3FFC47760649D8E54D4 /* Pods_IQA_Air.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17B43177C7D271ECC3E09EA /* Pods_IQA_Air.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57364E7326A7149100B4BF30 /* IQA Air.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IQA Air.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57364E7626A7149100B4BF30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57364E7826A7149100B4BF30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		57364E7A26A7149100B4BF30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57364E7D26A7149100B4BF30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57364E7F26A7149200B4BF30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57364E8226A7149200B4BF30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57364E8426A7149200B4BF30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57364E8B26A7153800B4BF30 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		57364E8C26A7153800B4BF30 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		57364E8F26A7156500B4BF30 /* Datamanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datamanager.swift; sourceTree = "<group>"; };
+		57364E9126A71D2900B4BF30 /* ViewIQA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewIQA.swift; sourceTree = "<group>"; };
+		6327B6BA9773F82CEC734F3D /* Pods-IQA Air.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQA Air.release.xcconfig"; path = "Target Support Files/Pods-IQA Air/Pods-IQA Air.release.xcconfig"; sourceTree = "<group>"; };
+		7846AD7EE12AE46D4EF05171 /* Pods-IQA Air.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQA Air.debug.xcconfig"; path = "Target Support Files/Pods-IQA Air/Pods-IQA Air.debug.xcconfig"; sourceTree = "<group>"; };
+		C17B43177C7D271ECC3E09EA /* Pods_IQA_Air.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IQA_Air.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57364E7026A7149100B4BF30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E18F3FFC47760649D8E54D4 /* Pods_IQA_Air.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57364E6A26A7149100B4BF30 = {
+			isa = PBXGroup;
+			children = (
+				57364E7526A7149100B4BF30 /* IQA Air */,
+				57364E7426A7149100B4BF30 /* Products */,
+				E69874633BEBF158863BBBA0 /* Pods */,
+				7D306EF0A39C33F9A800CEB3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57364E7426A7149100B4BF30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57364E7326A7149100B4BF30 /* IQA Air.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57364E7526A7149100B4BF30 /* IQA Air */ = {
+			isa = PBXGroup;
+			children = (
+				57364E7626A7149100B4BF30 /* AppDelegate.swift */,
+				57364E7826A7149100B4BF30 /* SceneDelegate.swift */,
+				57364E8126A7149200B4BF30 /* LaunchScreen.storyboard */,
+				57364E7F26A7149200B4BF30 /* Assets.xcassets */,
+				57364E7C26A7149100B4BF30 /* Main.storyboard */,
+				57364E8426A7149200B4BF30 /* Info.plist */,
+				57364E9126A71D2900B4BF30 /* ViewIQA.swift */,
+				57364E7A26A7149100B4BF30 /* ViewController.swift */,
+				57364E8F26A7156500B4BF30 /* Datamanager.swift */,
+				57364E8A26A7152B00B4BF30 /* JSON */,
+			);
+			path = "IQA Air";
+			sourceTree = "<group>";
+		};
+		57364E8A26A7152B00B4BF30 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				57364E8C26A7153800B4BF30 /* Main.swift */,
+				57364E8B26A7153800B4BF30 /* Data.swift */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		7D306EF0A39C33F9A800CEB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C17B43177C7D271ECC3E09EA /* Pods_IQA_Air.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E69874633BEBF158863BBBA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7846AD7EE12AE46D4EF05171 /* Pods-IQA Air.debug.xcconfig */,
+				6327B6BA9773F82CEC734F3D /* Pods-IQA Air.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57364E7226A7149100B4BF30 /* IQA Air */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57364E8726A7149200B4BF30 /* Build configuration list for PBXNativeTarget "IQA Air" */;
+			buildPhases = (
+				A77BF9F993090E71E3C59EE5 /* [CP] Check Pods Manifest.lock */,
+				57364E6F26A7149100B4BF30 /* Sources */,
+				57364E7026A7149100B4BF30 /* Frameworks */,
+				57364E7126A7149100B4BF30 /* Resources */,
+				05E92DCAABCE47747EFE00E1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IQA Air";
+			productName = "IQA Air";
+			productReference = 57364E7326A7149100B4BF30 /* IQA Air.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57364E6B26A7149100B4BF30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					57364E7226A7149100B4BF30 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 57364E6E26A7149100B4BF30 /* Build configuration list for PBXProject "IQA Air" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57364E6A26A7149100B4BF30;
+			productRefGroup = 57364E7426A7149100B4BF30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57364E7226A7149100B4BF30 /* IQA Air */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57364E7126A7149100B4BF30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57364E8326A7149200B4BF30 /* LaunchScreen.storyboard in Resources */,
+				57364E8026A7149200B4BF30 /* Assets.xcassets in Resources */,
+				57364E7E26A7149100B4BF30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05E92DCAABCE47747EFE00E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IQA Air/Pods-IQA Air-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IQA Air/Pods-IQA Air-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IQA Air/Pods-IQA Air-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A77BF9F993090E71E3C59EE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IQA Air-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57364E6F26A7149100B4BF30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57364E7B26A7149100B4BF30 /* ViewController.swift in Sources */,
+				57364E7726A7149100B4BF30 /* AppDelegate.swift in Sources */,
+				57364E7926A7149100B4BF30 /* SceneDelegate.swift in Sources */,
+				57364E9226A71D2900B4BF30 /* ViewIQA.swift in Sources */,
+				57364E9026A7156500B4BF30 /* Datamanager.swift in Sources */,
+				57364E8E26A7153800B4BF30 /* Main.swift in Sources */,
+				57364E8D26A7153800B4BF30 /* Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57364E7C26A7149100B4BF30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57364E7D26A7149100B4BF30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57364E8126A7149200B4BF30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57364E8226A7149200B4BF30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57364E8526A7149200B4BF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57364E8626A7149200B4BF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57364E8826A7149200B4BF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7846AD7EE12AE46D4EF05171 /* Pods-IQA Air.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = MG7C8G25YM;
+				INFOPLIST_FILE = "IQA Air/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stefano.AQI-Air-it";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		57364E8926A7149200B4BF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6327B6BA9773F82CEC734F3D /* Pods-IQA Air.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = MG7C8G25YM;
+				INFOPLIST_FILE = "IQA Air/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stefano.AQI-Air-it";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57364E6E26A7149100B4BF30 /* Build configuration list for PBXProject "IQA Air" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57364E8526A7149200B4BF30 /* Debug */,
+				57364E8626A7149200B4BF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57364E8726A7149200B4BF30 /* Build configuration list for PBXNativeTarget "IQA Air" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57364E8826A7149200B4BF30 /* Debug */,
+				57364E8926A7149200B4BF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57364E6B26A7149100B4BF30 /* Project object */;
+}
